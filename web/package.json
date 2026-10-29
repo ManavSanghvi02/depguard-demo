@@ -1,0 +1,19 @@
+{
+  "name": "depguard-demo-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small Express app pinned to old, vulnerable versions on purpose (DepGuard demo).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nyc node test.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "handlebars": "4.0.11",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "nyc": "11.9.0"
+  }
+}

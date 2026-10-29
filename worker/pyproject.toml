@@ -1,0 +1,9 @@
+[project]
+name = "depguard-demo-worker"
+version = "1.0.0"
+description = "Small job pinned to old, vulnerable versions on purpose (DepGuard demo)."
+requires-python = ">=3.8"
+dependencies = [
+    "jinja2==2.10.1",
+    "requests==2.19.1",
+]
